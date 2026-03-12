@@ -1,0 +1,294 @@
+body{
+margin:0;
+font-family:Inter,Segoe UI,Arial;
+background:#060d1c;
+color:white;
+}
+
+/* MAIN CONTAINER */
+
+.container{
+padding:50px 90px;
+}
+
+/* HEADER */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:45px;
+}
+
+.title{
+display:flex;
+align-items:center;
+gap:18px;
+}
+
+.logo{
+width:48px;
+height:48px;
+border-radius:50%;
+background:linear-gradient(135deg,#6ea2ff,#9f7aea);
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:20px;
+box-shadow:0 0 15px rgba(110,162,255,.4);
+}
+
+.title h1{
+font-size:40px;
+font-weight:600;
+}
+
+.title span{
+color:#6ea2ff;
+}
+
+/* USERS BADGE */
+
+.badge{
+background:#0e1933;
+padding:10px 20px;
+border-radius:25px;
+color:#7da2ff;
+font-size:14px;
+box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+/* GRID LAYOUT */
+
+.grid{
+display:grid;
+grid-template-columns:400px 1fr;
+gap:50px;
+align-items:flex-start;
+}
+
+/* CARD */
+
+.card{
+background:#121a30;
+padding:30px;
+border-radius:16px;
+box-shadow:0 8px 30px rgba(0,0,0,.45);
+}
+
+.sectionTitle{
+margin-bottom:25px;
+font-size:18px;
+font-weight:600;
+}
+
+/* LABEL */
+
+label{
+font-size:12px;
+opacity:.65;
+display:block;
+margin-bottom:6px;
+}
+
+/* INPUT FIELDS */
+
+input{
+width:100%;
+padding:14px 16px;
+margin-bottom:20px;
+border-radius:10px;
+border:none;
+background:#0d1628;
+color:white;
+font-size:14px;
+outline:none;
+transition:.2s;
+}
+
+input:focus{
+background:#111c34;
+box-shadow:0 0 0 2px #6ea2ff;
+}
+
+/* GENDER RADIO */
+
+.gender{
+display:flex;
+gap:15px;
+margin-bottom:22px;
+}
+
+.gender label{
+background:#0d1628;
+padding:10px 16px;
+border-radius:10px;
+display:flex;
+align-items:center;
+gap:6px;
+cursor:pointer;
+transition:.2s;
+}
+
+.gender label:hover{
+background:#162242;
+}
+
+/* TERMS */
+
+.terms{
+display:flex;
+align-items:center;
+gap:12px;
+margin-bottom:25px;
+font-size:14px;
+}
+
+.terms input{
+width:17px;
+height:17px;
+cursor:pointer;
+}
+
+/* SAVE BUTTON */
+
+.saveBtn{
+width:100%;
+padding:14px;
+border:none;
+border-radius:12px;
+background:linear-gradient(90deg,#4c7cff,#7ea3ff);
+color:white;
+font-size:15px;
+cursor:pointer;
+transition:.2s;
+}
+
+.saveBtn:hover{
+transform:translateY(-1px);
+box-shadow:0 6px 18px rgba(76,124,255,.4);
+}
+
+/* STATS CHIPS */
+
+.stats{
+display:flex;
+gap:14px;
+margin-bottom:25px;
+}
+
+.stats div{
+background:#0d1628;
+padding:8px 16px;
+border-radius:10px;
+font-size:13px;
+opacity:.9;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th,td{
+padding:15px;
+border-bottom:1px solid #1f2a44;
+font-size:14px;
+}
+
+th{
+opacity:.7;
+letter-spacing:.5px;
+}
+
+/* HOVER ROW */
+
+tbody tr:hover{
+background:#0f1830;
+}
+
+/* NAME CELL */
+
+.nameCell{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.avatar{
+width:36px;
+height:36px;
+border-radius:50%;
+background:linear-gradient(135deg,#6ea2ff,#9f7aea);
+display:flex;
+align-items:center;
+justify-content:center;
+font-weight:600;
+}
+
+/* GENDER BADGES */
+
+.male{
+background:#1d3d75;
+padding:4px 12px;
+border-radius:12px;
+font-size:13px;
+}
+
+.female{
+background:#5c2d8a;
+padding:4px 12px;
+border-radius:12px;
+font-size:13px;
+}
+
+/* TERMS STATUS */
+
+.agree{
+color:#34d399;
+}
+
+.decline{
+color:#fb7185;
+}
+
+/* ACTION BUTTONS */
+
+.editBtn{
+background:#1f2a44;
+border:none;
+padding:6px 14px;
+border-radius:8px;
+color:#d0d7ff;
+margin-right:6px;
+cursor:pointer;
+transition:.2s;
+}
+
+.editBtn:hover{
+background:#2b3b63;
+}
+
+/* DELETE ICON */
+
+.deleteBtn{
+background:#2a1a1a;
+border:none;
+width:36px;
+height:36px;
+border-radius:8px;
+color:#ff6b6b;
+cursor:pointer;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:16px;
+transition:.2s;
+}
+
+.deleteBtn:hover{
+background:#3a1f1f;
+transform:scale(1.05);
+}
